@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+input{
+    width: 75%;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.taskWrapper{
+    font-size: 20px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 50px;
+}
+ /* media Querries */
+
+ @media  (max-width: 600px) {
+    .editButton1{
+        margin-left: 20px;
+    }
+  }
+ @media  (max-width: 500px) {
+    .heading{
+        font-size: 20px;
+    }
+    input{
+       
+        font-size: 10px;
+    }
+    btn{
+        font-size: 2px;
+    }
+  }
